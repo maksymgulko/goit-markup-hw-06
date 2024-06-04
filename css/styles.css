@@ -17,32 +17,6 @@ body {
   background-color: #ffffff;
   color: #434455;
 }
-
-.container {
-  width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.logo {
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 1.17;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color: #4d5ae5;
-  margin-right: 76px;
-}
-
-.studio-header {
-  color: #2e2f42;
-}
-
-.contacts {
-  font-style: normal;
-}
-
 h1 {
   font-weight: 700;
   font-size: 56px;
@@ -87,6 +61,12 @@ button {
   background-color: #4d5ae5;
 }
 
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+}
+
 .contact:hover,
 .contact:active,
 .contact:focus,
@@ -94,6 +74,72 @@ button {
 .nav-link:active,
 .nav-link:focus {
   color: #404bbf;
+}
+
+.container {
+  max-width: 320px;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+    .container {
+           max-width: 768px;
+        }
+}
+@media screen and (min-width: 1158px) {
+    .container {
+            max-width: 1158px;
+            padding: 0 15px;
+        }
+}
+
+.logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+  margin-right: 76px;
+}
+
+.studio-header {
+  color: #2e2f42;
+}
+
+.contacts {
+  display: none;
+}
+.nav-links{
+  display: none;
+}
+
+.header-wrap{
+  border-bottom: 1px solid #e7e9fc;
+  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
+  0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
+}
+
+.head-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.menu-btn{
+  background-color: transparent;
+  cursor: pointer;
+  line-height: 0;
+  border: none;
+}
+
+
+/*
+.contacts {
+  font-style: normal;
 }
 
 .button-text {
@@ -116,17 +162,9 @@ button:focus {
   background-color: #404bbf;
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding-left: 0;
-}
 
-.header-wrap {
-  border-bottom: 1px solid #e7e9fc;
-  box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
-    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
-}
+
+
 
 .header-wrap a {
   display: block;
@@ -134,11 +172,7 @@ ul {
   padding: 24px 0;
 }
 
-.head-menu {
-  display: flex;
-  justify-content: space-between;
-  /* padding: 24px 0; */
-}
+
 
 .nav-menu,
 .nav-links,
@@ -702,4 +736,4 @@ footer,
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */

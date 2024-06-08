@@ -1157,6 +1157,12 @@ footer {
     max-width: 100%;
   }
 
-  .modal-checkbox-box .modal-label {
+  .mobile-modal-privacy .modal-span {
+    flex-shrink: 0;
+  }
+
+  .mobile-modal-privacy {
+    display: flex;
+    align-items: center;
   }
 }

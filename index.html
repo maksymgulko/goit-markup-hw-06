@@ -33,7 +33,6 @@
             <li><a class="nav-link" href="">Contacts</a></li>
           </ul>
         </nav>
-
         <address class="contacts">
           <ul class="contacts-list">
             <li>
@@ -53,6 +52,68 @@
             <use href="./images/icons.svg#icon-menu" />
           </svg>
         </button>
+      </div>
+      <div class="mobile-menu is-open">
+        <div class="mobile-wrap">
+          <button type="button" class="mobile-menu-btn">
+            <svg width="8" height="8" class="close-icon">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+          <ul class="mobile-nav-links">
+            <li>
+              <a class="nav-link-mobile nav-link-current" href="./index.html"
+                >Studio</a
+              >
+            </li>
+            <li><a class="nav-link-mobile" href="">Portfolio</a></li>
+            <li><a class="nav-link-mobile" href="">Contacts</a></li>
+          </ul>
+          <address class="mobile-contacts">
+            <ul class="contacts-list-mobile">
+              <li>
+                <a class="contact-mobile" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="contact-mobile" href="tel:+110001111111"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+            </ul>
+          </address>
+          <ul class="social-list-mobile">
+            <li class="social-item">
+              <a class="social-link" href="">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-link" href="">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-link" href="">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-item">
+              <a class="social-link" href="">
+                <svg class="social-icon" width="24" height="24">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
+            </li>
+          </ul>
+        </div>
       </div>
     </header>
     <main>
@@ -280,6 +341,7 @@
               <div class="portfolio-wrap">
                 <img
                   class="portfolio-img"
+                  srcset="./images/bapp-mobile.jpg 1x, ./images/bapp.jpg 2x"
                   src="./images/bapp.jpg"
                   width="360"
                   alt="Business App"
@@ -299,6 +361,10 @@
               <div class="portfolio-wrap">
                 <img
                   class="portfolio-img"
+                  srcset="
+                    ./images/cashless-mobile.jpg 1x,
+                    ./images/cashless.jpg        2x
+                  "
                   src="./images/cashless.jpg"
                   width="360"
                   alt="Cashless Payment"
@@ -318,6 +384,10 @@
               <div class="portfolio-wrap">
                 <img
                   class="portfolio-img"
+                  srcset="
+                    ./images/meditation-mobile.jpg 1x,
+                    ./images/meditation.jpg        2x
+                  "
                   src="./images/meditation.jpg"
                   width="360"
                   alt="Meditation App"
@@ -337,6 +407,7 @@
               <div class="portfolio-wrap">
                 <img
                   class="portfolio-img"
+                  srcset="./images/taxi-mobile.jpg 1x, ./images/taxi.jpg 2x"
                   src="./images/taxi.jpg"
                   width="360"
                   alt="Taxi Service"
@@ -356,6 +427,10 @@
               <div class="portfolio-wrap">
                 <img
                   class="portfolio-img"
+                  srcset="
+                    ./images/screenil-mobile.jpg 1x,
+                    ./images/screenil.jpg        2x
+                  "
                   src="./images/screenil.jpg"
                   width="360"
                   alt="Screen Illustrations"
@@ -375,6 +450,7 @@
               <div class="portfolio-wrap">
                 <img
                   class="portfolio-img"
+                  srcset="./images/onco-mobile.jpg 1x, ./images/onco.jpg 2x"
                   src="./images/onco.jpg"
                   width="360"
                   alt="Online Courses"
@@ -460,7 +536,7 @@
       <div class="modal">
         <button class="modal-btn-close" type="button">
           <svg width="8" height="8" class="close-icon">
-            <use href="./images/icons.svg#icon-close-black-18dp"></use>
+            <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
         <p class="modal-title">Leave your contacts and we will call you back</p>

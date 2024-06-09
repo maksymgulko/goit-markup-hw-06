@@ -10,7 +10,6 @@ p {
 
 img {
   display: block;
-  width: 100%;
 }
 
 body {
@@ -347,7 +346,7 @@ ul {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-bg-mobile.jpg);
+    url(../images/hero-bg.jpg);
   background-repeat: no-repeat;
   max-width: 1440px;
   background-position: center;
@@ -360,7 +359,7 @@ ul {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-bg-mobile@2x.jpg);
+      url(../images/hero-bg@2x.jpg);
   }
 }
 
@@ -392,25 +391,6 @@ button:focus {
 }
 
 @media screen and (min-width: 768px) {
-  .main-section-one {
-    padding: 112px 0;
-    background-image: linear-gradient(
-        rgba(46, 47, 66, 0.7),
-        rgba(46, 47, 66, 0.7)
-      ),
-      url(../images/hero-bg.jpg);
-  }
-
-  @media (min-resolution: 192dpi) {
-    .main-section-one {
-      background-image: linear-gradient(
-          rgba(46, 47, 66, 0.7),
-          rgba(46, 47, 66, 0.7)
-        ),
-        url(../images/hero-bg@2x.jpg);
-    }
-  }
-
   .main-section-one .section-title {
     font-weight: 700;
     font-size: 56px;

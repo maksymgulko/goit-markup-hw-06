@@ -420,6 +420,7 @@ button:focus {
 
 @media screen and (min-width: 768px) {
   .main-section-one {
+    padding: 112px 0;
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -489,9 +490,6 @@ button:focus {
 
 .main-section-two .text {
   font-weight: 500;
-  font-size: 16px;
-  line-height: 1.5;
-  letter-spacing: 0.02em;
   color: #434455;
 }
 
@@ -514,6 +512,10 @@ button:focus {
 @media screen and (min-width: 1158px) {
   .main-section-two {
     padding: 120px 0;
+  }
+
+  .main-section-two .text {
+    font-weight: 400;
   }
 
   .icon {
@@ -772,9 +774,13 @@ footer {
   flex-direction: column;
 }
 
-/* .footer-container .logo {
-  display: ;
-} */
+.footer-container {
+  margin-bottom: 72px;
+}
+
+.footer-socials {
+  margin-bottom: 72px;
+}
 
 .footer-socials-text {
   display: flex;
@@ -784,7 +790,6 @@ footer {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #fff;
-  margin-top: 72px;
   margin-bottom: 16px;
 }
 
@@ -792,7 +797,6 @@ footer {
   display: flex;
   justify-content: center;
   gap: 16px;
-  margin-bottom: 72px;
 }
 
 .footer-socials-list-item {

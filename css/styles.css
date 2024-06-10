@@ -346,7 +346,7 @@ ul {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../images/hero-bg.jpg);
+    url(../images/hero-bg-mobile.jpg);
   background-repeat: no-repeat;
   max-width: 1440px;
   background-position: center;
@@ -359,7 +359,27 @@ ul {
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/hero-bg@2x.jpg);
+      url(../images/hero-bg-mobile@2x.jpg);
+  }
+
+  @media screen and (min-width: 768px) {
+    .main-section-one {
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bg-tablet@2x.jpg);
+    }
+  }
+  @media screen and (min-width: 1158px) {
+    .main-section-one {
+      padding: 188px 0;
+      background-image: linear-gradient(
+          rgba(46, 47, 66, 0.7),
+          rgba(46, 47, 66, 0.7)
+        ),
+        url(../images/hero-bg@2x.jpg);
+    }
   }
 }
 
@@ -391,6 +411,14 @@ button:focus {
 }
 
 @media screen and (min-width: 768px) {
+  .main-section-one {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg-tablet.jpg);
+  }
+
   .main-section-one .section-title {
     font-weight: 700;
     font-size: 56px;
@@ -409,6 +437,11 @@ button:focus {
 @media screen and (min-width: 1158px) {
   .main-section-one {
     padding: 188px 0;
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url(../images/hero-bg.jpg);
   }
 
   .button-text {
